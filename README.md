@@ -16,16 +16,6 @@ The pipeline supports daily ingestion, transformation, Slowly Changing Dimension
 - Power BI for reporting and visualization
 - Azure Databricks Workflows for scheduling
 
-**Folder Structure in ADLS Gen 2:**
-
-/project2/
-│
-├── bronze/                    # Raw source files in date-partitioned folders
-├── silver/                    # Cleaned & transformed data (Parquet / Delta)
-├── gold/                      # Final SCD Type 1 output for reporting
-├── client_backup_files/      # Backup of daily CSVs in year/month/day format
-
-
 **Pipeline Steps**
 Step 1: Bronze Layer (Raw Ingestion)
 CSV files for accounts, customers, loans, payments, transactions
