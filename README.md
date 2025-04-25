@@ -7,7 +7,7 @@ This project builds a robust and scalable data pipeline using **Azure Data Lake 
 The pipeline supports daily ingestion, transformation, Slowly Changing Dimensions (SCD Type 1), and integration with **Power BI** for business reporting.
 
 
-**🛠Technologies Used:**
+➡️**Technologies Used:**
 
 - Azure Data Lake Gen2 (ADLS)
 - Azure Key Vault (for secure SAS/key storage)
@@ -16,7 +16,8 @@ The pipeline supports daily ingestion, transformation, Slowly Changing Dimension
 - Power BI for reporting and visualization
 - Azure Databricks Workflows for scheduling
 
-**Pipeline Steps**
+➡️**Pipeline Steps**
+
 Step 1: Bronze Layer (Raw Ingestion)
 CSV files for accounts, customers, loans, payments, transactions
 
@@ -37,7 +38,8 @@ Databricks SQL endpoint connects to Delta tables
 
 Visualizations: Top Accounts, Loan Trends, Transaction Volume
 
-**Notable Features**
+➡️**Notable Features**
+
 📂 Fully date-partitioned ingestion
 
 🧼 Modular transformation functions
