@@ -16,6 +16,8 @@ The pipeline supports daily ingestion, transformation, Slowly Changing Dimension
 - Power BI for reporting and visualization
 - Azure Databricks Workflows for scheduling
 
+---
+
 ➡️**Pipeline Steps**
 
 Step 1: Bronze Layer (Raw Ingestion)
@@ -37,7 +39,11 @@ Step 4: Power BI Integration
 Databricks SQL endpoint connects to Delta tables
 
 Visualizations: Top Accounts, Loan Trends, Transaction Volume
+---
+### Dashboard
+![Dashboard](./Dashboard.png)
 
+---
 ➡️**Notable Features**
 
 📂 Fully date-partitioned ingestion
@@ -53,7 +59,7 @@ Visualizations: Top Accounts, Loan Trends, Transaction Volume
 📅 Workflow-ready via Databricks Jobs
 
 
----------------------------------------------------------
+---
 
 Connect with me on my profile below for more updates:
 
