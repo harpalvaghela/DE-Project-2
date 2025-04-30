@@ -6,9 +6,11 @@ This project builds a robust and scalable data pipeline using **Azure Data Lake 
 
 The pipeline supports daily ingestion, transformation, Slowly Changing Dimensions (SCD Type 1), and integration with **Power BI** for business reporting.
 
+---
 ### ETL Workflow
-![ETL Workflow](./ETL Workflow.png)
+![ETLWorkflow](./ETLWorkflow.png)
 
+---
 ➡️**Technologies Used:**
 
 - Azure Data Lake Gen2 (ADLS)
