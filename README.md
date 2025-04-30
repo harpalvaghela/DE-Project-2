@@ -43,6 +43,7 @@ Step 4: Power BI Integration
 Databricks SQL endpoint connects to Delta tables
 
 Visualizations: Top Accounts, Loan Trends, Transaction Volume
+
 ---
 ### Dashboard
 ![Dashboard](./Dashboard.png)
